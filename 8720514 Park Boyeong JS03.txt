@@ -1,0 +1,56 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>会話文の理解ページ</title>
+  
+	<script type="text/javascript" language="JavaScript">
+function input_Text(){
+    document.getElementById("mytext").value='Mr.Tanaka, I would like to receive your seal here.';
+}
+function input_Text2(){
+    document.getElementById("mytext").value='Well, it is change in the subject, is not it? All right. Here you are.';
+}
+function input_Text3(){
+    document.getElementById("mytext").value='Thank you very much. And I will return this book to you. Thank you very much for lending me for a long time.';
+}
+function input_Text4(){
+    document.getElementById("mytext").value='No, no. Was it so and useful?';
+}
+function input_Text5(){
+    document.getElementById("mytext").value='Well, it was very fascinating in study.';
+}
+function input_Text6(){
+    document.getElementById("mytext").value='Really, I am glad to hear that.';
+}
+</script>
+</head>
+  
+<body>
+	<h3>テキストを見ながら、会話の内容をしっかり理解して下さい。</h3><br>
+
+	<table border="4">
+	<tr>
+	  <td>話者ボタンをクリックして、その翻訳を確認してください。</td>
+	 </tr>
+	<tr>
+	<td>
+	  <a href="#" onclick='input_Text()'>学生</a>: 先生、ここに印鑑をいただきたいのですが。
+	  <br><br>
+	  <a href="#" onclick='input_Text2()'>先生</a>: ああ、科目の変更ですね。分かりました。はい、どうぞ。 
+	  <br><br>
+	  <a href="#" onclick='input_Text3()'>学生</a>: ありがとうございます。それから、この本をお返しします。長い間ありがとうございました。
+	  <br><br>
+	  <a href="#" onclick='input_Text4()'>先生</a>: いえいえ。で、役に立ちましたか。
+	  <br><br>
+	  <a href="#" onclick='input_Text5()'>学生</a>: ええ、とてもおもしろくて、勉強になりました。
+	  <br><br>
+	  <a href="#" onclick='input_Text6()'>先生</a>: そう、それはよかった。
+	  <br><br>
+	</td>
+	</tr>
+      </table>
+	    <form name="myForm">
+	    【訳】<input type="text" size="100" name="myTEXT" id='mytext'
+	    </form>
+  </body>
+</html>
